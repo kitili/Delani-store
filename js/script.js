@@ -3,12 +3,6 @@ $('.drop-down').click(function() {
     $(this).children('.show').slidetoggle(1400);
 });
 
-function click() {
-
-    let minify = document.getElementById("ran");
-    let male = document.getElementById("form").value
-    alert("Dear " + "we have received your response");
-}
 $(document).ready(function() {
     $("#design-image").click(function() {
         $("#design-image").slideDown('').hide('');
@@ -103,32 +97,34 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $("form").submit(function(event) {
-        var name = $("input#text").val();
-        var email = $("input#email").val();
+        var name = $("#text").val();
+        var email = $("#email").val();
         var message = $("textarea#comment").val();
-        if ($("input#text").val() && $("input#email").val() && $("textarea#comment").val()) {
-            alert("Hello" + "..." + name + "..." + ",we have received your message " + "..." + (message) + "..." + ".Thank you for reaching out to us. We will contact you through the email address you have provided.  " + "..." + email);
-        } else {
+        if ($("#text").val() && $("#email").val() && $("textarea#comment").val()) {
+
             alert("Please make sure you fill in all the details before submitting the form.");
+        } else {
+            alert("Hello " + name + " ,we have received your message " + (message) + ".Thank you for reaching out to us. We will contact you through the email address you have provided.  " + email);
+
         }
     })
 })
 
 
 
-var unirest = require("unirest");
+// var unirest = require("unirest")
+// ;
+// var req = unirest("POST", "https://rapidapi.p.rapidapi.com/addWorkflowEmailSubscriber");
 
-var req = unirest("POST", "https://rapidapi.p.rapidapi.com/addWorkflowEmailSubscriber");
-
-req.headers({
-    "x-rapidapi-host": "MailChimpdimashirokovV1.p.rapidapi.com",
-    "x-rapidapi-key": "5956bb5e81msh1392e70fa6f87bbp1d3377jsn19eb3558d940",
-    "useQueryString": true
-});
+// req.headers({
+//     "x-rapidapi-host": "MailChimpdimashirokovV1.p.rapidapi.com",
+//     "x-rapidapi-key": "5956bb5e81msh1392e70fa6f87bbp1d3377jsn19eb3558d940",
+//     "useQueryString": true
+// });
 
 
-req.end(function(res) {
-    if (res.error) throw new Error(res.error);
+// req.end(function(res) {
+//     if (res.error) throw new Error(res.error);
 
-    console.log(res.body);
-});
+// console.log(res.body);
+// });

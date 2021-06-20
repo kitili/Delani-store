@@ -17,7 +17,7 @@
 .welcome h1 {
     padding: 10px;
     margin: 10px;
-    font-stretch: expanded;
+    /* font-stretch: expanded; */
     font-size: 50px;
     margin-top: 0px;
     font-size: 300%;
@@ -123,13 +123,16 @@ portolio {
     font-family: 'Playfair Display', serif;
 }
 
+
+/* 
 #tile1,
 #tile2,
 #tile3,
 #tile4,
 #tile5,
 #tile6,
-#tile7,
+#tile7, */
+
 #tile8 {
     display: none;
     color: black;
