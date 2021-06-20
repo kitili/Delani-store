@@ -221,8 +221,7 @@ footer p {
         margin-left: 4%;
         width: 84%;
     }
-}
-
-.troop {
-    display: none;
+    .troop {
+        display: none;
+    }
 }
