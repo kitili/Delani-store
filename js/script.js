@@ -109,22 +109,3 @@ $(document).ready(function() {
         }
     })
 })
-
-
-
-// var unirest = require("unirest")
-// ;
-// var req = unirest("POST", "https://rapidapi.p.rapidapi.com/addWorkflowEmailSubscriber");
-
-// req.headers({
-//     "x-rapidapi-host": "MailChimpdimashirokovV1.p.rapidapi.com",
-//     "x-rapidapi-key": "5956bb5e81msh1392e70fa6f87bbp1d3377jsn19eb3558d940",
-//     "useQueryString": true
-// });
-
-
-// req.end(function(res) {
-//     if (res.error) throw new Error(res.error);
-
-// console.log(res.body);
-// });
