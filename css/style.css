@@ -2,18 +2,6 @@
     display: flex;
 }
 
-.welcome {
-    background-image: url('/images/h_img (1).jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    padding-top: 15%;
-    padding-bottom: 10%;
-    font-family: 'Playfair Display', serif;
-}
-
 .welcome h1 {
     padding: 10px;
     margin: 10px;
