@@ -9,7 +9,7 @@ This project is about Delani Studio where we offer a full range of services incl
 
 
  ## Author
- ** [KITILI MOURINE MBULA]***
+ ** [KITILI MOURINE MBULA]**
 
  ### Setup Instructions
 
