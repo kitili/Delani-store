@@ -14,7 +14,7 @@ This project is about Delani Studio where we offer a full range of services incl
  ### Setup Instructions
 
 Run the code in the link to working example[https://github.com/kitili/Delani-store.git]
-#### Technologies Used
+### Technologies Used
 
 Built with:
 1. HTML
