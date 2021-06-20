@@ -212,16 +212,19 @@ footer p {
         margin-left: 4%;
         padding-bottom: 10px;
     }
-    #email {
-        width: 100%;
-        margin-left: 4%;
-        margin-bottom: 20px;
-    }
-    #comment {
-        margin-left: 4%;
-        width: 84%;
-    }
-    .troop {
-        display: none;
-    }
+}
+
+#email {
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+
+#comment {
+    margin-left: 4%;
+    width: 84%;
+}
+
+.troop {
+    display: none;
 }
