@@ -3,7 +3,7 @@
 }
 
 .welcome {
-    background-image: url('./images/h_img (1).jpg');
+    background-image: url('/images/h_img(1).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
 }
 
 .services {
-    background-image: url('./images/h_img.jpg');
+    background-image: url('/images/h_img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ portolio {
 }
 
 .container2 {
-    background-image: url('./images/c_image (1).jpg');
+    background-image: url('/images/c_image(1).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

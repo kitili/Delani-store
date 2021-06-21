@@ -100,7 +100,7 @@ $(document).ready(function() {
         var name = $("#text").val();
         var email = $("#email").val();
         var message = $("textarea#comment").val();
-        if ($("#text").val() && $("#email").val() && $("textarea#comment").val()) {
+        if (name === null || name === "") {
 
             alert("Please make sure you fill in all the details before submitting the form.");
         } else {
